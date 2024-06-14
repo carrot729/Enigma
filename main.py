@@ -25,11 +25,11 @@ def main():
     rotor2 = ord(rotor2) - ord('A')
     rotor3 = ord(rotor3) - ord('A')
     for i in range(rotor1):
-        rotors(r_word1)
+        r_word1=rotors(r_word1)
     for i in range(rotor2):
-        rotors(r_word2)
+        r_word2=rotors(r_word2)
     for i in range(rotor3):
-        rotors(r_word3)
+        r_word3=rotors(r_word3)
     print('Running:', end='')
     new_pass = simple_replace(password, r_word1, r_word2, r_word3)
     print('New password:', end='')
